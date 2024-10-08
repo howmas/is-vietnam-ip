@@ -1,0 +1,26 @@
+{
+  "name":"howmas/is-vietnam-ip",
+  "description":"",
+  "keywords":[
+    "howmas", "is-vietnam-ip"
+  ],
+  "homepage":"https://github.com/howmas/is-vietnam-ip",
+  "license":"MIT",
+  "authors":[
+    {
+      "name":"HowMAS",
+      "email":"contact.howmas@gmail.com",
+      "role":"Developer"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^7.9"
+  },
+  "suggest":{
+  },
+  "autoload": {
+    "psr-4": {
+      "HowMAS\\IsVietNamIP\\": "src/"
+    }
+  }
+}
