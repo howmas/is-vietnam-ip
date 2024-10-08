@@ -47,8 +47,6 @@ class Checker
             return false;
         }
 
-        echo $ip;
-
         $client = new \GuzzleHttp\Client();
         $response = $client->request('GET', 'https://api.iplocation.net/?ip=' . trim($ip));
         $response = json_decode($response->getBody(), true);
